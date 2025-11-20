@@ -1,0 +1,67 @@
+[
+  {
+    "id": "chocolate-chip-classic",
+    "title": "Classic Chocolate Chip Cookies",
+    "category": "drop-cookie",
+    "difficulty": "easy",
+    "yield": "48 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 11,
+    "totalTime": 26,
+    "description": "Golden-brown edges with soft, chewy centers loaded with melty semi-sweet chocolate chips throughout.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/chocolate-chip-classic.jpg",
+      "alt": "Stack of golden brown chocolate chip cookies with visible melted chocolate chips",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": [
+      "crowd-favorite",
+      "family-recipe",
+      "chocolate-lover"
+    ],
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup packed brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "2 cups semi-sweet chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Combine flour, baking soda, and salt in a medium bowl.",
+      "Beat butter, granulated sugar, and brown sugar until creamy and fluffy, about 3 minutes.",
+      "Add eggs and vanilla extract, beating until well combined.",
+      "Gradually stir in flour mixture until just combined.",
+      "Fold in chocolate chips with a spatula.",
+      "Drop rounded tablespoons of dough 2 inches apart onto ungreased baking sheets.",
+      "Bake for 9-11 minutes or until golden brown around edges.",
+      "Cool on baking sheets for 2 minutes, then transfer to wire racks."
+    ],
+    "tips": [
+      "For chewier cookies, slightly underbake and let them finish setting on the hot pan.",
+      "Use room temperature butter for best creaming and texture.",
+      "Store in an airtight container at room temperature for up to 5 days.",
+      "Freeze unbaked dough balls for up to 3 months—bake from frozen, adding 2 minutes."
+    ],
+    "tags": [
+      "chocolate",
+      "classic",
+      "family-favorite",
+      "dessert",
+      "baking",
+      "chewy"
+    ],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 142,
+      "highlight": "142 calories per cookie"
+    }
+  }
+]

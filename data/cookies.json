@@ -1,0 +1,1365 @@
+[
+  {
+    "id": "chocolate-chip-classic",
+    "title": "Classic Chocolate Chip Cookies",
+    "category": "drop-cookie",
+    "difficulty": "easy",
+    "yield": "48 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 11,
+    "totalTime": 26,
+    "description": "Golden-brown edges with soft, chewy centers loaded with melty semi-sweet chocolate chips throughout.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/chocolate-chip-classic.jpg",
+      "alt": "Stack of golden brown chocolate chip cookies with visible melted chocolate chips",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["crowd-favorite", "family-recipe", "chocolate-lover"],
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup packed brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "2 cups semi-sweet chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Combine flour, baking soda, and salt in a medium bowl.",
+      "Beat butter, granulated sugar, and brown sugar until creamy and fluffy, about 3 minutes.",
+      "Add eggs and vanilla extract, beating until well combined.",
+      "Gradually stir in flour mixture until just combined.",
+      "Fold in chocolate chips with a spatula.",
+      "Drop rounded tablespoons of dough 2 inches apart onto ungreased baking sheets.",
+      "Bake for 9-11 minutes or until golden brown around edges.",
+      "Cool on baking sheets for 2 minutes, then transfer to wire racks."
+    ],
+    "tips": [
+      "For chewier cookies, slightly underbake and let them finish setting on the hot pan.",
+      "Use room temperature butter for best creaming and texture.",
+      "Store in an airtight container at room temperature for up to 5 days.",
+      "Freeze unbaked dough balls for up to 3 months—bake from frozen, adding 2 minutes."
+    ],
+    "tags": ["chocolate", "classic", "family-favorite", "dessert", "baking", "chewy"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 142,
+      "highlight": "142 calories per cookie"
+    }
+  },
+  {
+    "id": "oatmeal-raisin",
+    "title": "Oatmeal Raisin Cookies",
+    "category": "drop-cookie",
+    "difficulty": "easy",
+    "yield": "36 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 12,
+    "totalTime": 27,
+    "description": "Chewy oatmeal cookies studded with plump raisins and warm cinnamon spice in every bite.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/oatmeal-raisin.jpg",
+      "alt": "Golden oatmeal cookies with visible raisins and textured oat surface on cooling rack",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["kid-friendly", "make-ahead", "family-recipe"],
+    "ingredients": [
+      "1 cup unsalted butter, softened",
+      "1 cup packed brown sugar",
+      "1/2 cup granulated sugar",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "1 1/2 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp ground cinnamon",
+      "1/2 tsp salt",
+      "3 cups old-fashioned rolled oats",
+      "1 1/2 cups raisins"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Beat butter and both sugars until light and fluffy.",
+      "Add eggs and vanilla, mixing until smooth.",
+      "In a separate bowl, whisk together flour, baking soda, cinnamon, and salt.",
+      "Stir dry ingredients into butter mixture until combined.",
+      "Mix in oats and raisins until evenly distributed.",
+      "Drop rounded tablespoons of dough onto parchment-lined baking sheets, spacing 2 inches apart.",
+      "Bake for 10-12 minutes until edges are lightly golden.",
+      "Cool on pan for 3 minutes before transferring to wire racks."
+    ],
+    "tips": [
+      "Soak raisins in warm water for 10 minutes for extra plump, juicy cookies.",
+      "Substitute dried cranberries or chocolate chips for variety.",
+      "Store in an airtight container for up to 1 week.",
+      "These cookies freeze beautifully for up to 3 months."
+    ],
+    "tags": ["oatmeal", "raisins", "cinnamon", "chewy", "wholesome", "classic"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 128,
+      "highlight": "128 calories per cookie"
+    }
+  },
+  {
+    "id": "peanut-butter-simple",
+    "title": "Simple Peanut Butter Cookies",
+    "category": "drop-cookie",
+    "difficulty": "easy",
+    "yield": "24 cookies",
+    "prepTime": 10,
+    "chillTime": 0,
+    "bakeTime": 10,
+    "totalTime": 20,
+    "description": "Incredibly simple peanut butter cookies with classic crosshatch pattern and rich, nutty flavor.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/peanut-butter-simple.jpg",
+      "alt": "Golden peanut butter cookies with traditional fork crosshatch pattern on top",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["quick", "kid-friendly", "no-chill"],
+    "ingredients": [
+      "1 cup creamy peanut butter",
+      "1 cup granulated sugar",
+      "1 large egg",
+      "1/2 tsp vanilla extract",
+      "1/4 tsp salt"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Mix peanut butter, sugar, and egg in a bowl until smooth and well combined.",
+      "Roll dough into 1-inch balls and place on ungreased baking sheets 2 inches apart.",
+      "Use a fork to press down in one direction, then press perpendicular to create crosshatch pattern.",
+      "Bake for 8-10 minutes until edges are set but centers still look slightly underbaked.",
+      "Cool on baking sheet for 5 minutes before transferring to wire rack."
+    ],
+    "tips": [
+      "These cookies are naturally gluten-free.",
+      "Don't overbake—they firm up as they cool.",
+      "For crunchier cookies, bake an additional 2 minutes.",
+      "Store in an airtight container for up to 5 days."
+    ],
+    "tags": ["peanut-butter", "simple", "gluten-free", "quick", "easy", "minimal-ingredients"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 95,
+      "highlight": "95 calories per cookie"
+    }
+  },
+  {
+    "id": "double-chocolate-chunk",
+    "title": "Double Chocolate Chunk Cookies",
+    "category": "drop-cookie",
+    "difficulty": "easy",
+    "yield": "30 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 12,
+    "totalTime": 27,
+    "description": "Rich cocoa cookies loaded with chunks of dark and white chocolate for ultimate indulgence.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/double-chocolate-chunk.jpg",
+      "alt": "Dark chocolate cookies with visible white and dark chocolate chunks throughout",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["chocolate-lover", "crowd-favorite", "freezer-friendly"],
+    "ingredients": [
+      "1 3/4 cups all-purpose flour",
+      "1/2 cup unsweetened cocoa powder",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "1 cup unsalted butter, softened",
+      "1 cup granulated sugar",
+      "1/2 cup packed brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "1 cup dark chocolate chunks",
+      "1 cup white chocolate chunks"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Whisk together flour, cocoa powder, baking soda, and salt.",
+      "Beat butter and both sugars until fluffy, about 3 minutes.",
+      "Add eggs and vanilla, beating until smooth.",
+      "Gradually mix in dry ingredients until just combined.",
+      "Fold in dark and white chocolate chunks.",
+      "Scoop rounded tablespoons onto parchment-lined baking sheets, 2 inches apart.",
+      "Bake 11-12 minutes until edges are set but centers look slightly soft.",
+      "Cool on baking sheet for 5 minutes before transferring to wire rack."
+    ],
+    "tips": [
+      "Use high-quality chocolate for best flavor.",
+      "Slightly underbake for fudgy centers.",
+      "These cookies are rich—pair with cold milk.",
+      "Freeze dough balls for fresh-baked cookies anytime."
+    ],
+    "tags": ["chocolate", "double-chocolate", "chunks", "rich", "decadent", "indulgent"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 167,
+      "highlight": "167 calories per cookie"
+    }
+  },
+  {
+    "id": "white-chocolate-macadamia",
+    "title": "White Chocolate Macadamia Nut Cookies",
+    "category": "drop-cookie",
+    "difficulty": "medium",
+    "yield": "36 cookies",
+    "prepTime": 20,
+    "chillTime": 0,
+    "bakeTime": 12,
+    "totalTime": 32,
+    "description": "Buttery cookies with creamy white chocolate chips and crunchy roasted macadamia nuts throughout.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/white-chocolate-macadamia.jpg",
+      "alt": "Golden cookies studded with white chocolate chips and macadamia nut pieces",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["fancy", "crowd-favorite", "make-ahead"],
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup packed brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "1/2 tsp almond extract",
+      "1 1/2 cups white chocolate chips",
+      "1 cup roasted macadamia nuts, roughly chopped"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Combine flour, baking soda, and salt in a bowl.",
+      "Beat butter and sugars until light and fluffy.",
+      "Add eggs, vanilla, and almond extract, mixing well.",
+      "Gradually stir in flour mixture.",
+      "Fold in white chocolate chips and macadamia nuts.",
+      "Drop rounded tablespoons onto ungreased baking sheets, 2 inches apart.",
+      "Bake 10-12 minutes until edges are golden.",
+      "Cool on pan for 2 minutes, then transfer to wire racks."
+    ],
+    "tips": [
+      "Toast macadamia nuts for 5 minutes at 350°F for enhanced flavor.",
+      "Use high-quality white chocolate chips, not white baking chips.",
+      "Store in an airtight container for up to 1 week.",
+      "These make elegant gifts when packaged in decorative boxes."
+    ],
+    "tags": ["white-chocolate", "macadamia", "buttery", "tropical", "elegant", "nuts"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 156,
+      "highlight": "156 calories per cookie"
+    }
+  },
+  {
+    "id": "oatmeal-chocolate-chip",
+    "title": "Oatmeal Chocolate Chip Cookies",
+    "category": "drop-cookie",
+    "difficulty": "medium",
+    "yield": "42 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 12,
+    "totalTime": 27,
+    "description": "Hearty oatmeal cookies with chocolate chips combining wholesome texture with sweet chocolate satisfaction.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/oatmeal-chocolate-chip.jpg",
+      "alt": "Thick oatmeal cookies with chocolate chips and visible oat texture",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["kid-friendly", "freezer-friendly", "chocolate-lover"],
+    "ingredients": [
+      "1 cup unsalted butter, softened",
+      "1 cup packed brown sugar",
+      "1/2 cup granulated sugar",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "1 1/2 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp ground cinnamon",
+      "1/2 tsp salt",
+      "3 cups old-fashioned rolled oats",
+      "1 1/2 cups semi-sweet chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Beat butter and both sugars until creamy.",
+      "Add eggs and vanilla, beating until combined.",
+      "In another bowl, whisk flour, baking soda, cinnamon, and salt.",
+      "Stir dry ingredients into butter mixture.",
+      "Mix in oats and chocolate chips until evenly distributed.",
+      "Drop rounded tablespoons onto parchment-lined sheets, spacing 2 inches apart.",
+      "Bake 10-12 minutes until edges are lightly golden.",
+      "Cool on baking sheet for 3 minutes before transferring."
+    ],
+    "tips": [
+      "Use old-fashioned oats, not quick oats, for best texture.",
+      "Add 1/2 cup chopped walnuts for extra crunch.",
+      "These stay soft for days when stored in airtight containers.",
+      "Freeze baked cookies for up to 3 months."
+    ],
+    "tags": ["oatmeal", "chocolate-chip", "hearty", "chewy", "cinnamon", "wholesome"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 134,
+      "highlight": "134 calories per cookie"
+    }
+  },
+  {
+    "id": "kitchen-sink-cookies",
+    "title": "Kitchen Sink Cookies",
+    "category": "drop-cookie",
+    "difficulty": "medium",
+    "yield": "40 cookies",
+    "prepTime": 20,
+    "chillTime": 0,
+    "bakeTime": 13,
+    "totalTime": 33,
+    "description": "Sweet and salty loaded cookies with chocolate chips, pretzels, potato chips, and toffee bits.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/kitchen-sink-cookies.jpg",
+      "alt": "Chunky cookies loaded with chocolate chips, pretzel pieces, and visible toffee bits",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["crowd-favorite", "fancy", "chocolate-lover"],
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup packed brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "1 cup semi-sweet chocolate chips",
+      "1/2 cup toffee bits",
+      "1 cup crushed pretzels",
+      "1 cup crushed potato chips",
+      "1/2 cup chopped pecans"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Whisk flour, baking soda, and salt together.",
+      "Cream butter and both sugars until fluffy, about 3 minutes.",
+      "Beat in eggs and vanilla until smooth.",
+      "Gradually stir in flour mixture.",
+      "Gently fold in chocolate chips, toffee bits, pretzels, potato chips, and pecans.",
+      "Scoop 2-tablespoon portions onto parchment-lined baking sheets, 3 inches apart.",
+      "Gently press down to flatten slightly.",
+      "Bake 11-13 minutes until edges are golden brown.",
+      "Cool on pan for 5 minutes before transferring to wire rack."
+    ],
+    "tips": [
+      "Crush pretzels and potato chips into small pieces, not powder.",
+      "These are best eaten the day they're made for maximum crunch.",
+      "Customize with your favorite mix-ins like M&Ms or caramel chips.",
+      "Store in an airtight container for up to 3 days."
+    ],
+    "tags": ["sweet-and-salty", "loaded", "unique", "crunchy", "indulgent", "fun"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 175,
+      "highlight": "175 calories per cookie"
+    }
+  },
+  {
+    "id": "snickerdoodles",
+    "title": "Snickerdoodles",
+    "category": "shaped-cookie",
+    "difficulty": "medium",
+    "yield": "36 cookies",
+    "prepTime": 15,
+    "chillTime": 30,
+    "bakeTime": 10,
+    "totalTime": 55,
+    "description": "Soft, chewy cookies rolled in cinnamon sugar with signature tangy flavor from cream of tartar.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/snickerdoodles.jpg",
+      "alt": "Round cookies coated in cinnamon sugar with crackled tops on white plate",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["crowd-favorite", "holiday-classic", "kid-friendly"],
+    "ingredients": [
+      "2 3/4 cups all-purpose flour",
+      "2 tsp cream of tartar",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "1 cup unsalted butter, softened",
+      "1 1/2 cups granulated sugar",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "1/4 cup cinnamon sugar (3 tbsp sugar + 1 tbsp cinnamon for rolling)"
+    ],
+    "instructions": [
+      "Whisk together flour, cream of tartar, baking soda, and salt.",
+      "Beat butter and 1 1/2 cups sugar until light and fluffy.",
+      "Add eggs and vanilla, mixing until combined.",
+      "Gradually stir in dry ingredients until dough forms.",
+      "Chill dough for 30 minutes.",
+      "Preheat oven to 375°F (190°C).",
+      "Mix 3 tablespoons sugar with cinnamon in a small bowl.",
+      "Roll dough into 1-inch balls, then roll in cinnamon sugar to coat.",
+      "Place on ungreased baking sheets 2 inches apart.",
+      "Bake 8-10 minutes until edges are set but centers look soft.",
+      "Cool on baking sheet for 2 minutes before transferring."
+    ],
+    "tips": [
+      "Cream of tartar is essential for the signature tangy flavor—don't skip it.",
+      "Chilling the dough prevents excessive spreading.",
+      "For extra chewy cookies, slightly underbake them.",
+      "Store in an airtight container for up to 1 week."
+    ],
+    "tags": ["cinnamon-sugar", "classic", "chewy", "tangy", "soft", "rolled"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 118,
+      "highlight": "118 calories per cookie"
+    }
+  },
+  {
+    "id": "gingerbread",
+    "title": "Gingerbread Cookies",
+    "category": "shaped-cookie",
+    "difficulty": "hard",
+    "yield": "30 cookies",
+    "prepTime": 20,
+    "chillTime": 60,
+    "bakeTime": 10,
+    "totalTime": 90,
+    "description": "Spiced molasses cookies with ginger, cinnamon, and cloves perfect for rolling and cutting shapes.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/gingerbread.jpg",
+      "alt": "Gingerbread person cookies with white icing details on rustic wooden surface",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["holiday-classic", "make-ahead", "fancy"],
+    "ingredients": [
+      "3 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "4 tsp gingerbread spice blend (2 tsp ginger, 1 1/2 tsp cinnamon, 1/2 tsp cloves)",
+      "3/4 cup unsalted butter, softened",
+      "3/4 cup packed brown sugar",
+      "1/2 cup molasses",
+      "1 large egg"
+    ],
+    "instructions": [
+      "Whisk flour, baking soda, salt, and gingerbread spice blend together.",
+      "Beat butter and brown sugar until fluffy.",
+      "Mix in molasses and egg until smooth.",
+      "Gradually add dry ingredients, mixing until dough comes together.",
+      "Divide dough in half, flatten into disks, wrap in plastic, and chill 1 hour.",
+      "Preheat oven to 350°F (175°C).",
+      "Roll dough to 1/4-inch thickness on floured surface.",
+      "Cut shapes with cookie cutters and place on parchment-lined baking sheets.",
+      "Bake 8-10 minutes until edges are firm.",
+      "Cool completely on wire racks before decorating."
+    ],
+    "tips": [
+      "Chill dough thoroughly for easier rolling and cutting.",
+      "Re-roll scraps only once to prevent tough cookies.",
+      "Decorate with royal icing for festive designs.",
+      "Store undecorated cookies in airtight containers for up to 2 weeks."
+    ],
+    "tags": ["ginger", "molasses", "spiced", "holiday", "cut-out", "festive"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 112,
+      "highlight": "112 calories per cookie"
+    }
+  },
+  {
+    "id": "molasses-crinkle",
+    "title": "Molasses Crinkle Cookies",
+    "category": "shaped-cookie",
+    "difficulty": "medium",
+    "yield": "36 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 11,
+    "totalTime": 26,
+    "description": "Soft spice cookies rolled in sugar with beautiful crackled tops and deep molasses flavor.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/molasses-crinkle.jpg",
+      "alt": "Dark brown cookies with crackled white sugar coating and dramatic texture",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["holiday-classic", "make-ahead", "freezer-friendly"],
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "2 tsp baking soda",
+      "1 tsp ground cinnamon",
+      "1 tsp ground ginger",
+      "1/2 tsp ground cloves",
+      "1/2 tsp salt",
+      "3/4 cup unsalted butter, softened",
+      "1 cup granulated sugar",
+      "1 large egg",
+      "1/4 cup molasses",
+      "1/4 cup granulated sugar (for rolling)"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Whisk flour, baking soda, cinnamon, ginger, cloves, and salt.",
+      "Beat butter and 1 cup sugar until fluffy.",
+      "Add egg and molasses, beating until smooth.",
+      "Gradually mix in dry ingredients.",
+      "Roll dough into 1-inch balls.",
+      "Roll each ball in remaining sugar to coat generously.",
+      "Place on parchment-lined baking sheets 2 inches apart.",
+      "Bake 10-11 minutes until puffy with crackled tops.",
+      "Cool on baking sheet for 3 minutes before transferring."
+    ],
+    "tips": [
+      "Don't overbake—cookies should look slightly underdone for soft centers.",
+      "Use fresh spices for best flavor.",
+      "The sugar coating creates the signature crackled appearance.",
+      "Store in airtight containers for up to 1 week."
+    ],
+    "tags": ["molasses", "spiced", "crinkle", "soft", "sugar-coated", "holiday"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 102,
+      "highlight": "102 calories per cookie"
+    }
+  },
+  {
+    "id": "sugar-cookies-basic",
+    "title": "Basic Sugar Cookies",
+    "category": "shaped-cookie",
+    "difficulty": "easy",
+    "yield": "30 cookies",
+    "prepTime": 15,
+    "chillTime": 30,
+    "bakeTime": 10,
+    "totalTime": 55,
+    "description": "Simple vanilla cookies with buttery flavor perfect for rolling into balls and sprinkling with sugar.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/sugar-cookies-basic.jpg",
+      "alt": "Round pale golden cookies with sparkling sugar crystals on top",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["kid-friendly", "quick", "no-chill"],
+    "ingredients": [
+      "2 3/4 cups all-purpose flour",
+      "1 tsp baking powder",
+      "1/2 tsp salt",
+      "1 cup unsalted butter, softened",
+      "1 1/2 cups granulated sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Whisk flour, baking powder, and salt together.",
+      "Beat butter and sugar until light and fluffy, about 3 minutes.",
+      "Add eggs and vanilla, mixing until combined.",
+      "Gradually stir in dry ingredients until dough forms.",
+      "Roll dough into 1-inch balls and place on ungreased baking sheets 2 inches apart.",
+      "Flatten slightly with the bottom of a glass dipped in sugar.",
+      "Bake 8-10 minutes until edges are barely golden.",
+      "Cool on baking sheet for 2 minutes before transferring."
+    ],
+    "tips": [
+      "Add colored sugar or sprinkles before baking for festive variations.",
+      "Don't overbake—cookies should be pale with just golden edges.",
+      "Store in airtight containers for up to 1 week.",
+      "These freeze well unbaked or baked."
+    ],
+    "tags": ["sugar", "vanilla", "simple", "classic", "buttery", "versatile"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 124,
+      "highlight": "124 calories per cookie"
+    }
+  },
+  {
+    "id": "thumbprint-cookies",
+    "title": "Thumbprint Cookies with Jam",
+    "category": "shaped-cookie",
+    "difficulty": "medium",
+    "yield": "36 cookies",
+    "prepTime": 20,
+    "chillTime": 30,
+    "bakeTime": 12,
+    "totalTime": 62,
+    "description": "Buttery cookies with indented centers filled with sweet fruit jam for elegant presentation.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/thumbprint-cookies.jpg",
+      "alt": "Small round cookies with jewel-toned jam centers in red and purple hues",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["fancy", "holiday-classic", "make-ahead"],
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1/2 tsp salt",
+      "1 cup unsalted butter, softened",
+      "2/3 cup granulated sugar",
+      "2 large egg yolks",
+      "1 tsp vanilla extract",
+      "1/2 tsp almond extract",
+      "2 large egg whites, lightly beaten",
+      "1 1/2 cups finely chopped walnuts or pecans",
+      "1/2 cup raspberry jam",
+      "1/2 cup apricot jam"
+    ],
+    "instructions": [
+      "Whisk flour and salt together.",
+      "Beat butter and sugar until creamy.",
+      "Mix in egg yolks, vanilla, and almond extract.",
+      "Gradually stir in flour mixture until dough forms.",
+      "Chill dough for 30 minutes.",
+      "Preheat oven to 350°F (175°C).",
+      "Roll dough into 1-inch balls, dip in egg whites, then roll in chopped nuts.",
+      "Place on parchment-lined baking sheets and press thumb into center of each.",
+      "Bake 10-12 minutes until lightly golden.",
+      "Immediately re-press centers if needed, then fill with jam.",
+      "Cool completely on wire racks."
+    ],
+    "tips": [
+      "Use seedless jam for smooth, elegant centers.",
+      "Re-press centers immediately after baking while cookies are still soft.",
+      "Try different jam flavors like strawberry, blueberry, or fig.",
+      "Store in single layers separated by parchment for up to 5 days."
+    ],
+    "tags": ["thumbprint", "jam-filled", "nuts", "elegant", "festive", "buttery"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 138,
+      "highlight": "138 calories per cookie"
+    },
+    "specialInstructions": {
+      "filling": true
+    }
+  },
+  {
+    "id": "decorated-sugar-cookies",
+    "title": "Decorated Sugar Cookies",
+    "category": "cut-out-cookie",
+    "difficulty": "hard",
+    "yield": "36 cookies",
+    "prepTime": 30,
+    "chillTime": 60,
+    "bakeTime": 10,
+    "totalTime": 100,
+    "description": "Perfect cut-out cookies that hold their shape beautifully, ideal for decorating with royal icing.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/decorated-sugar-cookies.jpg",
+      "alt": "Colorfully decorated cut-out cookies in various shapes with intricate royal icing designs",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["fancy", "holiday-classic", "make-ahead"],
+    "ingredients": [
+      "3 cups all-purpose flour",
+      "1 tsp baking powder",
+      "1/2 tsp salt",
+      "1 cup unsalted butter, softened",
+      "1 1/2 cups granulated sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "1/2 tsp almond extract",
+      "3 cups powdered sugar (for icing)",
+      "3 tbsp meringue powder (for icing)",
+      "5-6 tbsp water (for icing)",
+      "Food coloring gel (assorted colors)",
+      "Decorating sprinkles (assorted)",
+      "Edible glitter or luster dust (optional)"
+    ],
+    "instructions": [
+      "Whisk flour, baking powder, and salt together.",
+      "Beat butter and sugar until fluffy, about 3 minutes.",
+      "Add eggs, vanilla, and almond extract, mixing well.",
+      "Gradually mix in dry ingredients until dough forms.",
+      "Divide dough in half, flatten into disks, wrap, and chill 1 hour.",
+      "Preheat oven to 350°F (175°C).",
+      "Roll dough to 1/4-inch thickness on floured surface.",
+      "Cut shapes and place on parchment-lined baking sheets.",
+      "Bake 8-10 minutes until edges are barely golden.",
+      "Cool completely before decorating.",
+      "Make royal icing: Beat powdered sugar, meringue powder, and water until stiff peaks form.",
+      "Divide icing, tint with food coloring, and decorate cooled cookies."
+    ],
+    "tips": [
+      "Chill cut-out shapes for 10 minutes before baking to prevent spreading.",
+      "Use gel food coloring for vibrant colors without thinning icing.",
+      "Let base icing dry completely (4-6 hours) before adding details.",
+      "Store decorated cookies in single layers for up to 2 weeks."
+    ],
+    "tags": ["cut-out", "decorated", "royal-icing", "festive", "holiday", "artistic"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 156,
+      "highlight": "156 calories per cookie"
+    },
+    "specialInstructions": {
+      "decoration": true
+    }
+  },
+  {
+    "id": "shortbread",
+    "title": "Classic Shortbread",
+    "category": "cut-out-cookie",
+    "difficulty": "easy",
+    "yield": "24 cookies",
+    "prepTime": 15,
+    "chillTime": 30,
+    "bakeTime": 18,
+    "totalTime": 63,
+    "description": "Buttery, melt-in-your-mouth cookies with simple ingredients and delicate, crisp texture.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/shortbread.jpg",
+      "alt": "Golden rectangular shortbread cookies with fork prick marks on ceramic plate",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["fancy", "holiday-classic", "make-ahead"],
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "1/2 cup powdered sugar",
+      "1/4 tsp salt",
+      "1 cup unsalted butter, cold and cubed",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Pulse flour, powdered sugar, and salt in food processor.",
+      "Add cold butter cubes and pulse until mixture resembles coarse crumbs.",
+      "Press dough into a ball, then roll to 1/2-inch thickness on parchment.",
+      "Cut into rectangles or desired shapes.",
+      "Chill for 30 minutes.",
+      "Preheat oven to 325°F (165°C).",
+      "Prick each cookie with a fork several times.",
+      "Bake 16-18 minutes until pale golden.",
+      "Cool on baking sheet for 5 minutes before transferring."
+    ],
+    "tips": [
+      "Use cold butter for the best texture—don't let it warm up.",
+      "Don't overbake—shortbread should be pale, not brown.",
+      "Add lemon zest or vanilla bean for flavor variations.",
+      "Store in airtight containers for up to 2 weeks."
+    ],
+    "tags": ["shortbread", "buttery", "simple", "Scottish", "elegant", "melt-in-mouth"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 108,
+      "highlight": "108 calories per cookie"
+    }
+  },
+  {
+    "id": "linzer-cookies",
+    "title": "Linzer Cookies",
+    "category": "cut-out-cookie",
+    "difficulty": "hard",
+    "yield": "24 sandwich cookies",
+    "prepTime": 30,
+    "chillTime": 60,
+    "bakeTime": 12,
+    "totalTime": 102,
+    "description": "Delicate almond sandwich cookies with raspberry jam centers and powdered sugar dusting on top.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/linzer-cookies.jpg",
+      "alt": "Sandwich cookies with cutout centers revealing red jam filling, dusted with powdered sugar",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["fancy", "holiday-classic", "make-ahead"],
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 cup finely ground almonds",
+      "1/2 tsp baking powder",
+      "1/2 tsp ground cinnamon",
+      "1/4 tsp ground cloves",
+      "1/4 tsp salt",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "2 large egg yolks",
+      "1 tsp vanilla extract",
+      "1/2 tsp almond extract",
+      "1 tbsp lemon zest",
+      "1 cup raspberry jam",
+      "Powdered sugar for dusting"
+    ],
+    "instructions": [
+      "Whisk flour, ground almonds, baking powder, cinnamon, cloves, and salt.",
+      "Beat butter and sugar until fluffy.",
+      "Mix in egg yolks, vanilla, almond extract, and lemon zest.",
+      "Gradually add dry ingredients until dough forms.",
+      "Divide dough in half, flatten into disks, wrap, and chill 1 hour.",
+      "Preheat oven to 350°F (175°C).",
+      "Roll dough to 1/8-inch thickness and cut matching pairs.",
+      "Cut small centers from half the cookies (these will be tops).",
+      "Bake 10-12 minutes until edges are lightly golden.",
+      "Cool completely.",
+      "Spread jam on solid cookies, dust cut-out cookies with powdered sugar, then sandwich together."
+    ],
+    "tips": [
+      "Use seedless raspberry jam for smoothest filling.",
+      "Chill dough well to prevent spreading during baking.",
+      "Dust tops with powdered sugar just before serving for best appearance.",
+      "Store unfilled cookies separately for up to 1 week, assemble before serving."
+    ],
+    "tags": ["linzer", "sandwich", "almond", "raspberry", "Austrian", "elegant"],
+    "nutrition": {
+      "servingSize": "1 sandwich cookie",
+      "calories": 168,
+      "highlight": "168 calories per sandwich cookie"
+    },
+    "specialInstructions": {
+      "filling": true
+    }
+  },
+  {
+    "id": "brownies",
+    "title": "Classic Fudgy Brownies",
+    "category": "bar-cookie",
+    "difficulty": "easy",
+    "yield": "16 brownies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 25,
+    "totalTime": 40,
+    "description": "Rich, fudgy chocolate brownies with crackly tops and intensely decadent chocolate flavor throughout.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/brownies.jpg",
+      "alt": "Square chocolate brownies with shiny crackled tops stacked on white plate",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["chocolate-lover", "crowd-favorite", "quick"],
+    "ingredients": [
+      "1/2 cup unsalted butter",
+      "1 cup granulated sugar",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "1/3 cup unsweetened cocoa powder",
+      "1/2 cup all-purpose flour",
+      "1/4 tsp salt",
+      "1/4 tsp baking powder"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C) and grease an 8x8-inch baking pan.",
+      "Melt butter in a saucepan, then remove from heat.",
+      "Stir in sugar, eggs, and vanilla until well combined.",
+      "Add cocoa powder, flour, salt, and baking powder, mixing until smooth.",
+      "Pour batter into prepared pan and spread evenly.",
+      "Bake 20-25 minutes until a toothpick inserted comes out with moist crumbs.",
+      "Cool completely in pan before cutting into squares."
+    ],
+    "tips": [
+      "Don't overbake—slightly underdone brownies are perfectly fudgy.",
+      "For extra richness, add 1/2 cup chocolate chips to the batter.",
+      "Use a plastic knife to cut clean squares after cooling.",
+      "Store covered at room temperature for up to 4 days."
+    ],
+    "tags": ["brownies", "fudgy", "chocolate", "easy", "rich", "decadent"],
+    "nutrition": {
+      "servingSize": "1 brownie",
+      "calories": 142,
+      "highlight": "142 calories per brownie"
+    }
+  },
+  {
+    "id": "blondies",
+    "title": "Butterscotch Blondies",
+    "category": "bar-cookie",
+    "difficulty": "easy",
+    "yield": "16 bars",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 25,
+    "totalTime": 40,
+    "description": "Chewy brown sugar bars with rich butterscotch flavor and optional chocolate chip or nut additions.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/blondies.jpg",
+      "alt": "Golden square blondies with visible chocolate chips cut and stacked",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["crowd-favorite", "kid-friendly", "quick"],
+    "ingredients": [
+      "1/2 cup unsalted butter, melted",
+      "1 cup packed brown sugar",
+      "1 large egg",
+      "1 tsp vanilla extract",
+      "1 cup all-purpose flour",
+      "1/4 tsp baking powder",
+      "1/4 tsp salt",
+      "1 cup white chocolate chips (optional)"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C) and grease an 8x8-inch baking pan.",
+      "Whisk melted butter and brown sugar until smooth.",
+      "Beat in egg and vanilla.",
+      "Stir in flour, baking powder, and salt until just combined.",
+      "Fold in white chocolate chips if using.",
+      "Spread batter in prepared pan.",
+      "Bake 22-25 minutes until edges are set and center is slightly soft.",
+      "Cool completely before cutting into squares."
+    ],
+    "tips": [
+      "Use dark brown sugar for deeper butterscotch flavor.",
+      "Add chopped pecans or walnuts for extra texture.",
+      "Slightly underbake for chewier blondies.",
+      "Store in airtight container for up to 5 days."
+    ],
+    "tags": ["blondies", "butterscotch", "brown-sugar", "chewy", "easy", "bars"],
+    "nutrition": {
+      "servingSize": "1 bar",
+      "calories": 135,
+      "highlight": "135 calories per bar"
+    }
+  },
+  {
+    "id": "lemon-bars",
+    "title": "Classic Lemon Bars",
+    "category": "bar-cookie",
+    "difficulty": "medium",
+    "yield": "16 bars",
+    "prepTime": 20,
+    "chillTime": 0,
+    "bakeTime": 45,
+    "totalTime": 65,
+    "description": "Tangy lemon custard filling on buttery shortbread crust, finished with powdered sugar dusting.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/lemon-bars.jpg",
+      "alt": "Square lemon bars with thick yellow filling and powdered sugar topping",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["crowd-favorite", "fancy", "make-ahead"],
+    "ingredients": [
+      "1 cup plus 2 tbsp all-purpose flour (divided)",
+      "1/4 cup powdered sugar",
+      "1/2 cup unsalted butter, cold and cubed",
+      "2 large eggs",
+      "1 cup granulated sugar",
+      "1/4 tsp baking powder",
+      "1/4 cup fresh lemon juice",
+      "1 tbsp lemon zest",
+      "Additional powdered sugar for dusting"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C) and line an 8x8-inch pan with parchment.",
+      "Mix 1 cup flour and 1/4 cup powdered sugar, cut in cold butter until crumbly.",
+      "Press mixture into bottom of prepared pan.",
+      "Bake crust for 15 minutes until lightly golden.",
+      "Meanwhile, whisk eggs, granulated sugar, 2 tablespoons flour, and baking powder.",
+      "Stir in lemon juice and zest until smooth.",
+      "Pour lemon mixture over hot crust.",
+      "Bake 25-30 minutes until filling is set.",
+      "Cool completely, then dust with powdered sugar and cut into squares."
+    ],
+    "tips": [
+      "Use fresh lemon juice for best flavor—bottled juice won't compare.",
+      "Let bars cool completely before cutting for clean edges.",
+      "Dust with powdered sugar just before serving for best presentation.",
+      "Store covered in refrigerator for up to 5 days."
+    ],
+    "tags": ["lemon", "citrus", "tangy", "bars", "shortbread-crust", "refreshing"],
+    "nutrition": {
+      "servingSize": "1 bar",
+      "calories": 148,
+      "highlight": "148 calories per bar"
+    }
+  },
+  {
+    "id": "seven-layer-bars",
+    "title": "Seven-Layer Magic Bars",
+    "category": "bar-cookie",
+    "difficulty": "medium",
+    "yield": "24 bars",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 30,
+    "totalTime": 45,
+    "description": "Decadent layered bars with graham crust, chocolate chips, butterscotch, coconut, and condensed milk.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/seven-layer-bars.jpg",
+      "alt": "Thick bars showing visible layers of coconut, chocolate chips, and butterscotch",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["crowd-favorite", "fancy", "kid-friendly"],
+    "ingredients": [
+      "1 1/2 cups graham cracker crumbs",
+      "1/2 cup unsalted butter, melted",
+      "1 cup semi-sweet chocolate chips",
+      "1 cup butterscotch chips",
+      "1 1/3 cups sweetened shredded coconut",
+      "1 cup chopped pecans or walnuts",
+      "1 (14 oz) can sweetened condensed milk"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C) and line a 9x13-inch pan with parchment.",
+      "Mix graham cracker crumbs with melted butter and press into bottom of pan.",
+      "Layer chocolate chips evenly over crust.",
+      "Add layer of butterscotch chips.",
+      "Sprinkle coconut over chips.",
+      "Top with chopped nuts.",
+      "Pour sweetened condensed milk evenly over all layers.",
+      "Bake 25-30 minutes until edges are golden brown.",
+      "Cool completely before cutting into bars."
+    ],
+    "tips": [
+      "Press crust firmly for stable base.",
+      "Let bars cool completely—cutting warm bars creates a mess.",
+      "Customize layers with white chocolate chips or toffee bits.",
+      "Store in airtight container for up to 1 week."
+    ],
+    "tags": ["layered", "magic-bars", "coconut", "chocolate", "butterscotch", "decadent"],
+    "nutrition": {
+      "servingSize": "1 bar",
+      "calories": 224,
+      "highlight": "224 calories per bar"
+    }
+  },
+  {
+    "id": "biscotti",
+    "title": "Italian Almond Biscotti",
+    "category": "specialty",
+    "difficulty": "hard",
+    "yield": "30 cookies",
+    "prepTime": 20,
+    "chillTime": 0,
+    "bakeTime": 50,
+    "totalTime": 70,
+    "description": "Twice-baked Italian cookies with crunchy texture and almond flavor, perfect for coffee dipping.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/biscotti.jpg",
+      "alt": "Sliced biscotti showing visible almonds and golden brown twice-baked texture",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["fancy", "make-ahead", "freezer-friendly"],
+    "ingredients": [
+      "2 1/2 cups all-purpose flour",
+      "1 1/2 tsp baking powder",
+      "1/4 tsp salt",
+      "3/4 cup granulated sugar",
+      "1/2 cup unsalted butter, softened",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "1 tsp almond extract",
+      "1 cup whole almonds, toasted"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "Whisk flour, baking powder, and salt together.",
+      "Beat butter and sugar until fluffy.",
+      "Add eggs, vanilla, and almond extract, mixing well.",
+      "Stir in dry ingredients, then fold in almonds.",
+      "Divide dough in half and shape each into a 12-inch log on parchment-lined baking sheet.",
+      "Bake 30 minutes until golden and firm.",
+      "Cool for 10 minutes, then slice diagonally into 1/2-inch slices.",
+      "Lay slices cut-side down on baking sheet.",
+      "Bake 10 minutes, flip, then bake another 10 minutes until crisp and golden.",
+      "Cool completely on wire racks."
+    ],
+    "tips": [
+      "Don't skip the second bake—it creates the signature crunch.",
+      "Add 1 tablespoon lemon zest to the dough for a citrus variation.",
+      "Dip in melted chocolate for elegant presentation.",
+      "Store in airtight containers for up to 3 weeks.",
+      "Perfect for dunking in coffee, tea, or dessert wine."
+    ],
+    "tags": ["biscotti", "Italian", "almond", "twice-baked", "crunchy", "coffee"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 98,
+      "highlight": "98 calories per cookie"
+    }
+  },
+  {
+    "id": "madeleines",
+    "title": "French Madeleines",
+    "category": "specialty",
+    "difficulty": "medium",
+    "yield": "24 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 12,
+    "totalTime": 27,
+    "description": "Delicate French shell-shaped sponge cakes with light texture and subtle lemon or vanilla flavor.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/madeleines.jpg",
+      "alt": "Golden shell-shaped madeleines with distinctive ridged pattern dusted with powdered sugar",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["fancy", "quick", "French"],
+    "ingredients": [
+      "2 large eggs",
+      "2/3 cup granulated sugar",
+      "1 tsp vanilla extract",
+      "1 tbsp lemon zest",
+      "1 cup all-purpose flour",
+      "1 tsp baking powder",
+      "1/4 tsp salt",
+      "1/2 cup unsalted butter, melted and cooled",
+      "Powdered sugar for dusting"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C) and butter madeleine pan generously.",
+      "Beat eggs and sugar until thick and pale, about 3 minutes.",
+      "Mix in vanilla and lemon zest.",
+      "Gently fold in flour, baking powder, and salt.",
+      "Fold in melted butter until just combined.",
+      "Spoon batter into madeleine molds, filling 3/4 full.",
+      "Bake 10-12 minutes until edges are golden and centers spring back.",
+      "Immediately remove from pan and cool on wire rack.",
+      "Dust with powdered sugar before serving."
+    ],
+    "tips": [
+      "Butter and flour the madeleine pan well to prevent sticking.",
+      "Serve madeleines the same day for best texture.",
+      "The signature bump on the back forms during baking—don't worry if it varies.",
+      "These are meant to be light and airy, not dense."
+    ],
+    "tags": ["madeleines", "French", "shell-shaped", "lemon", "delicate", "elegant"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 82,
+      "highlight": "82 calories per cookie"
+    }
+  },
+  {
+    "id": "pizzelles",
+    "title": "Italian Pizzelle Cookies",
+    "category": "specialty",
+    "difficulty": "medium",
+    "yield": "36 cookies",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 24,
+    "totalTime": 39,
+    "description": "Thin, crisp Italian waffle cookies with delicate anise flavor and beautiful pressed pattern.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/pizzelles.jpg",
+      "alt": "Thin golden pizzelle cookies with intricate snowflake-like pressed pattern stacked",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["fancy", "holiday-classic", "Italian"],
+    "ingredients": [
+      "6 large eggs",
+      "1 1/2 cups granulated sugar",
+      "1 cup unsalted butter, melted and cooled",
+      "2 tbsp anise extract",
+      "3 1/2 cups all-purpose flour",
+      "4 tsp baking powder"
+    ],
+    "instructions": [
+      "Beat eggs and sugar until thick and pale.",
+      "Stir in melted butter and anise extract.",
+      "Combine flour and baking powder, then gradually mix into wet ingredients.",
+      "Heat pizzelle iron according to manufacturer's directions.",
+      "Drop 1 tablespoon of batter onto center of each pizzelle grid.",
+      "Close iron and cook for 30-40 seconds until golden.",
+      "Carefully remove with fork and cool flat on wire racks.",
+      "Repeat with remaining batter."
+    ],
+    "tips": [
+      "A pizzelle iron is essential for this recipe—no substitutions.",
+      "Work quickly when removing cookies as they harden fast.",
+      "Substitute vanilla or lemon extract for anise if preferred.",
+      "Store in airtight containers for up to 2 weeks."
+    ],
+    "tags": ["pizzelle", "Italian", "waffle-cookie", "anise", "thin", "crisp"],
+    "nutrition": {
+      "servingSize": "1 cookie",
+      "calories": 112,
+      "highlight": "112 calories per cookie"
+    }
+  },
+  {
+    "id": "alfajores",
+    "title": "Alfajores (South American Sandwich Cookies)",
+    "category": "specialty",
+    "difficulty": "hard",
+    "yield": "24 sandwich cookies",
+    "prepTime": 30,
+    "chillTime": 30,
+    "bakeTime": 12,
+    "totalTime": 72,
+    "description": "Delicate cornstarch cookies sandwiched with dulce de leche and rolled in coconut.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/alfajores.jpg",
+      "alt": "Sandwich cookies with dulce de leche filling visible, edges coated in shredded coconut",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": true,
+    "videoLabel": "Step-by-step video tutorial",
+    "badges": ["fancy", "holiday-classic", "make-ahead"],
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "1 1/2 cups cornstarch",
+      "1 tsp baking powder",
+      "1/2 tsp baking soda",
+      "1/4 tsp salt",
+      "3/4 cup unsalted butter, softened",
+      "2/3 cup granulated sugar",
+      "2 large egg yolks",
+      "1 tsp vanilla extract",
+      "1 tbsp lemon zest",
+      "1 1/2 cups dulce de leche",
+      "1 cup sweetened shredded coconut (for rolling)"
+    ],
+    "instructions": [
+      "Whisk flour, cornstarch, baking powder, baking soda, and salt.",
+      "Beat butter and sugar until fluffy.",
+      "Mix in egg yolks, vanilla, and lemon zest.",
+      "Gradually add dry ingredients until soft dough forms.",
+      "Chill dough for 30 minutes.",
+      "Preheat oven to 350°F (175°C).",
+      "Roll dough to 1/4-inch thickness and cut into 2-inch rounds.",
+      "Place on parchment-lined baking sheets.",
+      "Bake 10-12 minutes until barely golden—don't overbake.",
+      "Cool completely.",
+      "Spread dulce de leche on bottom of one cookie, top with another, gently press.",
+      "Roll edges in shredded coconut."
+    ],
+    "tips": [
+      "These cookies are very delicate—handle gently.",
+      "Don't overbake or they'll be dry instead of tender.",
+      "Make your own dulce de leche or buy quality jarred versions.",
+      "Store in airtight container in refrigerator for up to 5 days."
+    ],
+    "tags": ["alfajores", "South-American", "dulce-de-leche", "coconut", "sandwich", "delicate"],
+    "nutrition": {
+      "servingSize": "1 sandwich cookie",
+      "calories": 186,
+      "highlight": "186 calories per sandwich cookie"
+    },
+    "specialInstructions": {
+      "filling": true
+    }
+  },
+  {
+    "id": "no-bake-energy-bites",
+    "title": "No-Bake Energy Bites",
+    "category": "no-bake",
+    "difficulty": "easy",
+    "yield": "24 bites",
+    "prepTime": 15,
+    "chillTime": 0,
+    "bakeTime": 0,
+    "totalTime": 15,
+    "description": "Healthy no-bake treats with oats, peanut butter, honey, and chocolate chips.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/no-bake-energy-bites.jpg",
+      "alt": "Round textured energy balls with visible oats and chocolate chips on white plate",
+      "aspectRatio": "4/3"
+    },
+    "hasVideo": false,
+    "badges": ["quick", "kid-friendly", "no-chill"],
+    "ingredients": [
+      "1 cup old-fashioned rolled oats",
+      "1/2 cup creamy peanut butter",
+      "1/3 cup honey",
+      "1/2 cup mini chocolate chips",
+      "1/2 cup ground flaxseed",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Mix all ingredients in a medium bowl until well combined.",
+      "Roll into 1-inch balls using your hands (wet hands slightly if mixture is sticky).",
+      "Store in airtight container in refrigerator.",
+      "Enjoy cold or at room temperature."
+    ],
+    "tips": [
+      "Wet your hands slightly when rolling to prevent sticking.",
+      "Substitute almond butter or sunflower seed butter for nut-free version.",
+      "Add shredded coconut or chia seeds for variation.",
+      "Store in refrigerator for up to 2 weeks."
+    ],
+    "tags": ["no-bake", "healthy", "energy-bites", "oats", "peanut-butter", "quick"],
+    "nutrition": {
+      "servingSize": "1 bite",
+      "calories": 89,
+      "highlight": "89 calories per bite"
+    },
+    "specialInstructions": {
+      "noBake": true
+    }
+  },
+  {
+    "id": "chocolate-pretzel-bites",
+    "title": "Chocolate-Covered Pretzel Bites",
+    "category": "no-bake",
+    "difficulty": "easy",
+    "yield": "36 bites",
+    "prepTime": 20,
+    "chillTime": 0,
+    "bakeTime": 0,
+    "totalTime": 20,
+    "description": "Sweet and salty treats with pretzels, peanut butter, and chocolate coating.",
+    "image": {
+      "url": "https://res.cloudinary.com/demo/image/upload/v1/cookies/chocolate-pretzel-bites.jpg",
+      "alt": "Square chocolate-covered bites with pretzel pieces visible on top and peanut butter filling",
+      "aspectRatio": "1"
+    },
+    "hasVideo": false,
+    "badges": ["kid-friendly", "quick", "no-chill"],
+    "ingredients": [
+      "72 small pretzel twists",
+      "1 cup creamy peanut butter",
+      "1/4 cup powdered sugar",
+      "2 cups semi-sweet chocolate chips",
+      "1 tbsp coconut oil",
+      "Sea salt for sprinkling (optional)"
+    ],
+    "instructions": [
+      "Line baking sheet with parchment paper.",
+      "Mix peanut butter and powdered sugar until smooth.",
+      "Place small dollop of peanut butter mixture on 36 pretzels.",
+      "Top each with another pretzel to make sandwiches.",
+      "Melt chocolate chips with coconut oil in microwave, stirring every 30 seconds.",
+      "Dip each pretzel sandwich in chocolate, coating completely.",
+      "Place on parchment-lined sheet and sprinkle with sea salt if desired.",
+      "Let stand at room temperature 15-20 minutes until chocolate sets, or refrigerate for faster setting."
+    ],
+    "tips": [
+      "Use a fork to dip and remove excess chocolate.",
+      "Work quickly before peanut butter mixture warms up.",
+      "Store in refrigerator for up to 1 week.",
+      "These make great gifts in decorative tins."
+    ],
+    "tags": ["no-bake", "chocolate", "pretzel", "sweet-and-salty", "peanut-butter", "easy"],
+    "nutrition": {
+      "servingSize": "1 bite",
+      "calories": 96,
+      "highlight": "96 calories per bite"
+    },
+    "specialInstructions": {
+      "noBake": true
+    }
+  }
+]

@@ -1,0 +1,392 @@
+/* ============================================
+   The Cookie Jar
+   ============================================
+
+   STYLESHEET CONTENTS:
+
+   This file provides base styling for the Cookie Jar
+   recipe showcase, including:
+
+   - Design tokens (CSS custom properties)
+   - Typography and base element styles
+   - Page structure (header, main)
+   - Component styling with internal layouts
+   - Color system using hsl() format
+
+   COMPONENT INTERNAL LAYOUT:
+
+   Components use Grid and Flexbox internally to arrange
+   their child elements. These internal layouts work
+   regardless of the component's width or placement on
+   the page:
+
+   - .cookie-card uses Grid for vertical content flow
+   - .cookie-card__badges uses Flex for horizontal wrapping
+   - .cookie-card__meta uses Grid for dt/dd pair columns
+   - .cookie-card__body uses Grid for content sections
+
+   PAGE LAYOUT:
+
+   The .cookie-grid container currently uses normal
+   document flow (no grid applied). Page-level layout
+   rules are defined in layout.css.
+
+   ============================================ */
+
+/* ============================================
+   1. MINIMAL RESET
+   ============================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* ============================================
+   2. ROOT CUSTOM PROPERTIES (DESIGN TOKENS)
+   ============================================ */
+
+:root {
+  /* ===== BASE PALETTE ===== */
+  /* Cookie-themed brand colors */
+  --color-chocolate: hsl(25, 40%, 35%);
+  --color-golden: hsl(40, 65%, 55%);
+  --color-caramel: hsl(30, 60%, 38%);
+  --color-vanilla: hsl(45, 30%, 96%);
+  --color-cream: hsl(35, 30%, 95%);
+  --color-tan: hsl(30, 25%, 90%);
+  --color-accent: hsl(15, 75%, 42%);
+
+  /* ===== TEXT COLORS ===== */
+  /* WCAG AA compliant for light backgrounds */
+  --color-text-primary: hsl(25, 35%, 15%);
+  --color-text-body: hsl(25, 30%, 25%);
+  --color-text-dark: hsl(25, 30%, 20%);
+  --color-text-medium: hsl(25, 20%, 45%);
+  --color-text-light: hsl(45, 30%, 98%);
+
+  /* ===== SHADOW COLORS ===== */
+  --shadow-color-soft: hsl(25, 20%, 80%);
+  /* Light shadow for cards */
+  --shadow-color-medium: hsl(25, 20%, 70%);
+  /* Deeper shadow for hero card */
+
+  /* ===== BADGE COLORS ===== */
+  /* No-bake badge (green) */
+  --badge-no-bake-bg: hsl(120, 40%, 85%);
+  --badge-no-bake-text: hsl(120, 40%, 25%);
+
+  /* Decorated badge (purple) */
+  --badge-decorated-bg: hsl(280, 50%, 90%);
+  --badge-decorated-text: hsl(280, 50%, 30%);
+
+  /* Filling badge (pink/red) */
+  --badge-filling-bg: hsl(340, 50%, 90%);
+  --badge-filling-text: hsl(340, 50%, 30%);
+
+  /* ===== COMPONENT BACKGROUNDS ===== */
+  --bg-video-placeholder: hsl(40, 65%, 92%);
+
+  /* ===== SPACING SCALE ===== */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  /* ===== DESIGN TOKENS ===== */
+  /* Radii and shadows */
+  --radius-card: 1rem;
+  --shadow-soft: 0 0.25rem 0.75rem var(--shadow-color-soft);
+}
+
+/* ============================================
+   3. BASE STYLES
+   ============================================ */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background-color: var(--color-vanilla);
+  color: var(--color-text-dark);
+}
+
+/* ============================================
+   4. PAGE FRAMING
+   ============================================ */
+
+.site-header {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  background-color: var(--color-cream);
+  border-bottom: 2px solid var(--color-tan);
+}
+
+.site-header h1 {
+  margin: 0 0 var(--space-md) 0;
+  font-size: 2rem;
+  color: var(--color-chocolate);
+}
+
+.site-header p {
+  margin: 0;
+  max-width: 60ch;
+  margin-inline: auto;
+  color: var(--color-text-body);
+}
+
+.site-main {
+  padding: var(--space-xl) var(--space-md);
+}
+
+/* ============================================
+   5. THE COOKIE GRID CONTAINER
+   ============================================
+
+   This container has no layout styles applied.
+   Cards stack vertically in normal document flow.
+
+   Grid layout is defined in layout.css.
+
+   ============================================ */
+
+/* ============================================
+   6. COOKIE CARD BASE STYLES
+   ============================================
+
+   Cards use Grid internally for vertical stacking
+   of content sections. This layout works at any
+   card width.
+
+   Container queries in layout.css can modify the
+   internal layout for horizontal arrangements.
+
+   ============================================ */
+
+.cookie-card {
+  background-color: var(--color-cream);
+  border-radius: var(--radius-card);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: var(--space-md);
+
+  /* Vertical spacing when cards stack in normal flow */
+  /* Overridden by grid gap when grid layout is applied */
+  margin-bottom: var(--space-lg);
+}
+
+.cookie-card--hero {
+  padding: var(--space-xl);
+  box-shadow: 0 0.5rem 1.5rem var(--shadow-color-medium);
+  border: 2px solid var(--color-golden);
+}
+
+/* ============================================
+   7. CARD INTERNAL STRUCTURE
+   ============================================ */
+
+.cookie-card__header {
+  margin-bottom: var(--space-sm);
+}
+
+.cookie-card__category {
+  margin: 0 0 var(--space-xs) 0;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-caramel);
+  font-weight: 600;
+}
+
+.cookie-card__title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--color-chocolate);
+  line-height: 1.3;
+  padding-block-end: 0.5em;
+}
+
+.cookie-card__media {
+  margin: 0;
+}
+
+.cookie-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-card) * 0.5);
+  /* aspect-ratio and object-fit defined in layout.css */
+}
+
+.cookie-card__body {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.cookie-card__description {
+  margin: 0;
+  color: var(--color-text-body);
+  font-size: 0.9375rem;
+}
+
+/* ============================================
+   8. BADGES
+   ============================================ */
+
+.cookie-card__badges {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.badge {
+  font-size: 0.875rem;
+  max-height: fit-content;
+  padding: 0.25rem 0.75rem;
+  border-radius: 100vw;
+  background-color: var(--color-accent);
+  color: var(--color-vanilla);
+  font-weight: 500;
+}
+
+/* Badge modifier styles (minimal variation) */
+.badge--no-bake {
+  background-color: var(--badge-no-bake-bg);
+  color: var(--badge-no-bake-text);
+}
+
+.badge--decorated {
+  background-color: var(--badge-decorated-bg);
+  color: var(--badge-decorated-text);
+}
+
+.badge--filling {
+  background-color: var(--badge-filling-bg);
+  color: var(--badge-filling-text);
+}
+
+.badge--crowd-favorite,
+.badge--chocolate-lover,
+.badge--fancy {
+  background-color: var(--color-caramel);
+  color: var(--color-vanilla);
+}
+
+/* ============================================
+   9. META DATA SECTION
+   ============================================ */
+
+.cookie-card__meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  gap: var(--space-md);
+  font-size: 0.9375rem;
+  padding: var(--space-sm);
+  background-color: var(--color-tan);
+  border-radius: calc(var(--radius-card) * 0.5);
+}
+
+.cookie-card__meta-item {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.cookie-card__meta dt {
+  font-weight: 600;
+  color: var(--color-chocolate);
+}
+
+.cookie-card__meta dd {
+  margin: 0;
+  color: var(--color-text-body);
+}
+
+/* Light emphasis for chill time */
+.cookie-card__meta .chill-time {
+  color: var(--color-chocolate);
+}
+
+/* ============================================
+   10. INGREDIENTS SECTION
+   ============================================ */
+
+.cookie-card__ingredients {
+  margin-top: var(--space-sm);
+}
+
+.cookie-card__subheading {
+  margin: 0 0 var(--space-sm) 0;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-chocolate);
+  font-weight: 600;
+}
+
+.ingredients {
+  padding-left: 1.25rem;
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--color-text-body);
+}
+
+.ingredients li {
+  margin-bottom: 0.25rem;
+}
+
+/* Multi-column layouts for long ingredient lists in layout.css */
+
+/* ============================================
+   11. VIDEO PLACEHOLDER
+   ============================================ */
+
+.video-placeholder {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm);
+  background-color: var(--bg-video-placeholder);
+  border-radius: calc(var(--radius-card) * 0.5);
+  font-size: 0.9375rem;
+  color: var(--color-chocolate);
+}
+
+.video-icon {
+  font-size: 1.25rem;
+  color: var(--color-caramel);
+}
+
+.video-label {
+  font-weight: 500;
+}
+
+/* Card styling variations using :has(.video-placeholder) in layout.css */
+
+/* ============================================
+   12. NUTRITION
+   ============================================ */
+
+.cookie-card__nutrition {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-text-body);
+  font-style: italic;
+}
+
+/* ============================================
+   ACCESSIBILITY & CONTRAST
+   ============================================
+
+   All colors meet WCAG AA contrast requirements.
+   Typography is sized for readability.
+   Focus visible styles use system defaults.
+   ============================================ */
