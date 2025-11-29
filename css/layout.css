@@ -1,0 +1,155 @@
+/* ============================================
+   2. ROOT CUSTOM PROPERTIES (DESIGN TOKENS)
+   ============================================ */
+
+:root {
+  /* ===== BASE PALETTE ===== */
+  /* Cookie-themed brand colors */
+  --color-chocolate: hsl(25, 40%, 35%);
+  --color-golden: hsl(40, 65%, 55%);
+  --color-caramel: hsl(30, 60%, 38%);
+  --color-vanilla: hsl(45, 30%, 96%);
+  --color-cream: hsl(35, 30%, 95%);
+  --color-tan: hsl(30, 25%, 90%);
+  --color-accent: hsl(15, 75%, 42%);
+
+  /* ===== TEXT COLORS ===== */
+  /* WCAG AA compliant for light backgrounds */
+  --color-text-primary: hsl(25, 35%, 15%);
+  --color-text-body: hsl(25, 30%, 25%);
+  --color-text-dark: hsl(25, 30%, 20%);
+  --color-text-medium: hsl(25, 20%, 45%);
+  --color-text-light: hsl(45, 30%, 98%);
+
+  /* ===== SHADOW COLORS ===== */
+  --shadow-color-soft: hsl(25, 20%, 80%);
+  /* Light shadow for cards */
+  --shadow-color-medium: hsl(25, 20%, 70%);
+  /* Deeper shadow for hero card */
+
+  /* ===== BADGE COLORS ===== */
+  /* No-bake badge (green) */
+  --badge-no-bake-bg: hsl(120, 40%, 85%);
+  --badge-no-bake-text: hsl(120, 40%, 25%);
+
+  /* Decorated badge (purple) */
+  --badge-decorated-bg: hsl(280, 50%, 90%);
+  --badge-decorated-text: hsl(280, 50%, 30%);
+
+  /* Filling badge (pink/red) */
+  --badge-filling-bg: hsl(340, 50%, 90%);
+  --badge-filling-text: hsl(340, 50%, 30%);
+
+  /* ===== COMPONENT BACKGROUNDS ===== */
+  --bg-video-placeholder: hsl(40, 65%, 92%);
+
+  /* ===== SPACING SCALE ===== */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+
+  /* ===== ASPECT RATIOS ===== */
+  --aspect-wide: 16 / 9;
+  --aspect-square: 1 / 1;
+  --aspect-portrait: 3 / 4;
+
+  /* ===== CARD SIZE LIMITS ===== */
+  --card-width-min: 20rem;
+  --card-width-half: 50rem;
+  --card-width-max: 1fr;
+  --card-width-inner: 16rem;
+
+  /* ===== DESIGN TOKENS ===== */
+  /* Radii and shadows */
+  --radius-card: 1rem;
+  --shadow-soft: 0 0.25rem 0.75rem var(--shadow-color-soft);
+}
+
+.cookie-card {
+  container-type: inline-size;
+  container-name: card;
+  display: grid
+}
+
+.cookie-card:has(img){
+  padding: var(--space-xl);
+}
+
+.cookie-grid {
+  container-type: inline-size;
+  container-name: cardGrid;
+  width:auto;
+  display: grid;
+  /* margin: auto; */
+  grid-template-columns: 1fr;
+  padding: var(--space-md);
+}
+
+.site-main {
+  container-type: inline-size;
+  container-name: main;
+}
+
+@container main (min-width: 400px) {
+  .cookie-grid {
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-width-min), 1fr));
+    gap: clamp(0.5rem, 1rem + 4cqi, 2rem);
+  }
+}
+
+@container main (min-width: 1050px) {
+  .cookie-grid {
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-width-half), 1fr));
+    gap: clamp(var(--space-xs), 1.5rem + 4cqi, var(--space-sm));
+  }
+}
+
+@container card (min-width: 750px) {
+  .cookie-card__body{
+    margin-left: var(--space-lg);
+    margin-right: var(--space-lg);
+    overflow-wrap: normal;
+  }
+}
+
+/*Change the Layout of the grid display*/
+@container cardGrid (min-width: 400px){
+  .cookie-card {
+    max-width: 100%;
+    object-fit: cover;         /* Fill space, crop edges */
+    margin-bottom: var(--space-sm);
+    box-sizing: border-box;
+  }
+}
+
+@container cardGrid (min-width: 550px){
+  .cookie-card img{
+    max-width: 100%;           /* Never overflow container */
+    height: auto;              /* Maintain aspect ratio */
+    aspect-ratio: var(--aspect-wide);      /* Explicit ratio */
+    object-fit: cover;         /* Fill space, crop edges */
+  }
+
+  .cookie-card .video-placeholder {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;         /* Fill space, crop edges */
+    aspect-ratio: var(--aspect-wide);      /* Explicit ratio */
+    margin: var(--space-sm);
+  }
+}
+
+@container cardGrid (min-width: 1050px){
+  .cookie-card {
+    width: clamp(var(--card-width-half), max-content, var(--card-width-max));
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-width-inner), 1fr));
+    gap: clamp(var(--space-sm), 0.5rem + 5cqi, var(--space-md));
+  }
+
+  .cookie-card img{
+    aspect-ratio: var(--aspect-square);      /* Explicit ratio */
+  }
+}
