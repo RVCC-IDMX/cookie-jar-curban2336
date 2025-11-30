@@ -76,12 +76,6 @@
   --aspect-square: 1 / 1;
   --aspect-portrait: 3 / 4;
 
-  /* ===== Screen Thresholds ===== */
-  --screen-tablet-min: 400px;
-  --screen-tablet-max: 550px;
-  --screen-desktop-min: 750px;
-  --screen-desktop: 1050px;
-
   /* ===== CARD SIZE LIMITS ===== */
   --card-width-min: 20rem;
   --card-width-half: 50rem;
@@ -126,7 +120,7 @@
    ============================================ */
 
    /* tablet: if the total of main is tablet size then make the smaller auto-fit columns */
-@container main (min-width: var(--screen-tablet-min)) {
+@container main (min-width: 400px) {
   .cookie-grid {
     grid-template-columns: repeat(auto-fit, minmax(var(--card-width-min), 1fr));
     gap: clamp(0.5rem, 1rem + 4cqi, 2rem);
@@ -134,7 +128,7 @@
 }
 
 /* Desktop and larger: if the total of main is larger then make the large auto-fit columns */
-@container main (min-width: var(--screen-desktop)) {
+@container main (min-width: 1050px) {
   .cookie-grid {
     grid-template-columns: repeat(auto-fit, minmax(var(--card-width-half), 1fr));
     gap: clamp(var(--space-xs), 1.5rem + 4cqi, var(--space-sm));
@@ -142,7 +136,7 @@
 }
 
 /* Modify body text margin for larger cards */
-@container card (min-width: var(--screen-desktop-min)) {
+@container card (min-width: 750px) {
   .cookie-card__body{
     margin-left: var(--space-lg);
     margin-right: var(--space-lg);
@@ -151,7 +145,7 @@
 }
 
 /*Modify card display*/
-@container cardGrid (min-width: var(--screen-tablet-min)){
+@container cardGrid (min-width: 400px){
   .cookie-card {
     max-width: 100%;
     object-fit: cover;         /* Fill space, crop edges */
@@ -162,7 +156,7 @@
 
 
 /*Accommodations for images and video placeholders*/
-@container cardGrid (min-width: var(--screen-tablet-max)){
+@container cardGrid (min-width: 550px){
   .cookie-card img{
     max-width: 100%;           /* Never overflow container */
     height: auto;              /* Maintain aspect ratio */
@@ -180,7 +174,7 @@
 }
 
 /* Desktop and larger: Larger columns and img aspect ratio changes. */
-@container cardGrid (min-width: var(--screen-desktop)){
+@container cardGrid (min-width: 1050px){
   .cookie-card {
     width: clamp(var(--card-width-half), max-content, var(--card-width-max));
     grid-template-columns: repeat(auto-fit, minmax(var(--card-width-inner), 1fr));
