@@ -1,7 +1,27 @@
 /* ============================================
-   2. ROOT CUSTOM PROPERTIES (DESIGN TOKENS)
-   ============================================ */
+   The Cookie Jar Layout
+   ============================================
 
+   STYLESHEET CONTENTS:
+
+   This file provides base styling for multiple screen widths. It has been designed to accommodate:
+
+   - Mobile
+   - Tablet
+   - Desktop
+   - Super Large Screens
+
+   COMPONENT LAYOUT:
+
+   Components use Grid and Flexbox internally to arrange
+   their child elements. This is done through @container rules to adapt the layout based on the container sizes. This allows for more dynamic styling that can adjust to different screen sizes:
+
+   - .cookie-card uses Grid for both vertical and horizontal content flow
+   - .cookie-grid uses Grid for overall page layout
+   - .site-main uses container queries for main content area
+   - minor accommodations for images and video placeholders
+
+   ============================================ */
 :root {
   /* ===== BASE PALETTE ===== */
   /* Cookie-themed brand colors */
@@ -56,6 +76,12 @@
   --aspect-square: 1 / 1;
   --aspect-portrait: 3 / 4;
 
+  /* ===== Screen Thresholds ===== */
+  --screen-tablet-min: 400px;
+  --screen-tablet-max: 550px;
+  --screen-desktop-min: 750px;
+  --screen-desktop: 1050px;
+
   /* ===== CARD SIZE LIMITS ===== */
   --card-width-min: 20rem;
   --card-width-half: 50rem;
@@ -68,6 +94,9 @@
   --shadow-soft: 0 0.25rem 0.75rem var(--shadow-color-soft);
 }
 
+/* ============================================
+   BASE STYLES: Setting Containers and img padding
+   ============================================ */
 .cookie-card {
   container-type: inline-size;
   container-name: card;
@@ -83,7 +112,6 @@
   container-name: cardGrid;
   width:auto;
   display: grid;
-  /* margin: auto; */
   grid-template-columns: 1fr;
   padding: var(--space-md);
 }
@@ -93,21 +121,28 @@
   container-name: main;
 }
 
-@container main (min-width: 400px) {
+/* ============================================
+   CONTAINER QUERIES FOR LAYOUT ADAPTATION
+   ============================================ */
+
+   /* tablet: if the total of main is tablet size then make the smaller auto-fit columns */
+@container main (min-width: var(--screen-tablet-min)) {
   .cookie-grid {
     grid-template-columns: repeat(auto-fit, minmax(var(--card-width-min), 1fr));
     gap: clamp(0.5rem, 1rem + 4cqi, 2rem);
   }
 }
 
-@container main (min-width: 1050px) {
+/* Desktop and larger: if the total of main is larger then make the large auto-fit columns */
+@container main (min-width: var(--screen-desktop)) {
   .cookie-grid {
     grid-template-columns: repeat(auto-fit, minmax(var(--card-width-half), 1fr));
     gap: clamp(var(--space-xs), 1.5rem + 4cqi, var(--space-sm));
   }
 }
 
-@container card (min-width: 750px) {
+/* Modify body text margin for larger cards */
+@container card (min-width: var(--screen-desktop-min)) {
   .cookie-card__body{
     margin-left: var(--space-lg);
     margin-right: var(--space-lg);
@@ -115,8 +150,8 @@
   }
 }
 
-/*Change the Layout of the grid display*/
-@container cardGrid (min-width: 400px){
+/*Modify card display*/
+@container cardGrid (min-width: var(--screen-tablet-min)){
   .cookie-card {
     max-width: 100%;
     object-fit: cover;         /* Fill space, crop edges */
@@ -125,7 +160,9 @@
   }
 }
 
-@container cardGrid (min-width: 550px){
+
+/*Accommodations for images and video placeholders*/
+@container cardGrid (min-width: var(--screen-tablet-max)){
   .cookie-card img{
     max-width: 100%;           /* Never overflow container */
     height: auto;              /* Maintain aspect ratio */
@@ -142,7 +179,8 @@
   }
 }
 
-@container cardGrid (min-width: 1050px){
+/* Desktop and larger: Larger columns and img aspect ratio changes. */
+@container cardGrid (min-width: var(--screen-desktop)){
   .cookie-card {
     width: clamp(var(--card-width-half), max-content, var(--card-width-max));
     grid-template-columns: repeat(auto-fit, minmax(var(--card-width-inner), 1fr));
